@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,600,900');
+
+$primary-color: lighten(green, 1) !default;
+
+html, body{
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto Slab';
+	font-weight: 900;
+}
+
+
+p{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.bold{
+	font-weight: 900;
+}
+
+.container{
+	width: 100%;
+	padding: 60px 30px;
+}
+
+.mark{
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 600;
+	margin: 15px 0px;
+}
+
+
+@media (min-width: 1025px) {
+  	section.container{
+  		padding: 60px 20%;
+  	}
+}
+
+.subtext{
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+}
+
+.subsection-header{
+	border-bottom: 2px solid #222;
+}
+
+.section-header{
+	@extend .text-orange, .text-lighten-4;
+	padding-bottom: 60px;
+}
+
+
+.card{
+
+	.card-title{
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+.card-image{
+	height: 150px;
+}
+
+a{
+	color: inherit;
+}
+
+.container--hero{
+}
