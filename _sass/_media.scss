@@ -1,0 +1,18 @@
+@media (min-width: 1025px) {
+  	.section__wrapper{
+		width: 70%;
+		margin: 0 auto;
+		padding: 120px 30px 100px 30px;
+  	}
+
+	.subsection--feature{
+		flex-direction: row !important;
+	}
+
+	.subsection--customizations{
+		.card{
+			margin: 30px;
+		}
+	}
+
+}

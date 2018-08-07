@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,600,900');
 
-*{
-	border: 1px solid black;
-}
-
 html, body{
 	position: relative;
 	font-family: 'Roboto Slab';
@@ -16,31 +12,13 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 900;
 }
 
-
-
 .section__wrapper{
 	padding: 100px 30px 30px 30px;
-
-	img{
-
-	}
-	
-	.section-header{
-		
-	}
 
 	.subsection{
 		margin: 60px 0px;
 		padding: 0px;
 
-		.animate--component{
-			transition-duration: 0.6s !important;
-		}
-
-		.img--screen{
-			height: 250px;
-			border: 8px solid teal;
-		}
 
 		.subsection__wrapper{
 
@@ -57,6 +35,25 @@ h1, h2, h3, h4, h5, h6{
 			}
 		}
 
+
+		.animate--component{
+			transition-duration: 0.6s !important;
+		}
+
+		.img--screen{
+			height: 250px;
+			border: 8px solid teal;
+		}
+		
+
+		/// components section
+		&.subsection--component{
+
+		}
+	
+
+
+		/// feature section
 		&.subsection--feature{
 
 			display: flex;
@@ -86,7 +83,9 @@ h1, h2, h3, h4, h5, h6{
 			}
 		}
 
+		
 
+		/// customizations section
 		&.subsection--customizations{
 
 			.custom-example{
@@ -99,28 +98,9 @@ h1, h2, h3, h4, h5, h6{
 			}
 
 			.card .card-content{
-				padding: 24px 0px;
+				padding: 24px 10px;
 			}
 		}
 
 	}
-}
-
-@media (min-width: 1025px) {
-  	.section-container{
-
-  	}
-
-  	.subsection{
-		
-  	}
-	
-	.img-screen{
-		margin: 45px;
-	}
-
-	.subsection-feature{
-		flex-direction: row;
-	}
-
 }
