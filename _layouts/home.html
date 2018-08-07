@@ -4,31 +4,31 @@
 	{% include head.html %}
 
 	<body onscroll='addElements()'>
-		
-		<div class='navbar-fixed'>
-			<nav class='teal'>
-				<div class="nav-wrapper">
-				  <a href="#" class="brand-logo">
-				  		<img class='circle'src='./images/logo_edited.jpg'>
-				  </a>
-				  <ul id="nav-mobile" class="right hide-on-med-and-down">
-				    <li><a href="#about">About</a></li>
-				    <li><a href="#components">Components</a></li>
-				    <li><a href="#features">Features</a></li>
-				    <li><a href="#contact">Contact Us</a></li>
-				    <li><a target='_blank' href='https://design-automation.github.io/mobius-cesium/gallery'>Gallery</a></li>
-				  </ul>
-				</div>
-			</nav>
-		</div>
 
+		<div class="navbar-fixed">
+	    <nav class='teal'>
+	      <div class="nav-wrapper">
+	        <a href="#" class="brand-logo">
+			  		<img class='circle'src='./images/logo_edited.jpg'>
+			</a>
+	        <ul class="right hide-on-med-and-down">
+			    <li><a href="#about">About</a></li>
+			    <li><a href="#components">Components</a></li>
+			    <li><a href="#features">Features</a></li>
+			    <li><a href="#contact">Contact Us</a></li>
+			    <li><a target='_blank' href='https://design-automation.github.io/mobius-cesium/gallery'>Gallery</a></li>
+	        </ul>
+	      </div>
+	    </nav>
+	  </div>
+		
 		<!-- hero -->
 		<section class='section-container container--hero grey lighten-2'>
 			<img class='circle' style='width: 100px;' src='./images/logo_edited.jpg'>
 			<h1>The Möbius Project</h1>
-			<p>Computing for<u>all</u>.</p>
-			<a class="github-button" href="https://github.com/design-automation/mobius-cesium/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork design-automation/mobius-cesium on GitHub">Fork</a>
-			<a class="github-button" href="https://github.com/design-automation/mobius-cesium" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star design-automation/mobius-cesium on GitHub">Star</a>
+			<h5>Computing for <u>all</u>.</h5>
+			<!-- <a class="github-button" href="https://github.com/design-automation/mobius-cesium/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork design-automation/mobius-cesium on GitHub">Fork</a>
+			<a class="github-button" href="https://github.com/design-automation/mobius-cesium" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star design-automation/mobius-cesium on GitHub">Star</a> -->
 		</section>
 
 
@@ -42,34 +42,35 @@
 			</div>
 		</section>
 
+		<div class='divider'></div>
 
 		<!-- about -->
 		<section class='section-container section scrollspy' id='components'>
 			<h4 class='section-header center-align'>Mobius Components</h4>
 			<div class='row subsection'>
-				<div class='col m7  scale-transition scale-out'>
+				<div class='col m5 offset-m1 center-align scale-transition scale-out subcomponent'>
 					<img class='img--screen circle' src='./images/screen1.png'>
 				</div>
-				<div class='col m5  scale-transition scale-out'>
-					<h6 class='subsection-header'><i class='material-icons'>looks_one</i>Presentation Layer</h6>
+				<div class='col m5 scale-transition scale-out subcomponent'>
+					<h6 class='subsection-header'><i class='material-icons teal-text'>looks_one</i>Presentation Layer</h6>
 					<p class='subtext'>Visualize your content in your own way, with custom viewers or default viewers that come with Mobius. This upper layer, hides all processing underneath and allows you to share your final result with the world.</p>
 				</div>
 			</div>
 			<div class='row subsection'>
-				<div class='col m7  scale-transition scale-out'>
+				<div class='col m5 offset-m1 center-align scale-transition scale-out subcomponent'>
 					<img class='img--screen circle' src='./images/screen2.png'>
 				</div>
-				<div class='col m5  scale-transition scale-out'>
-					<h6 class='subsection-header'><i class='material-icons'>looks_two</i>Flow-based Editor</h6>
+				<div class='col m5 scale-transition scale-out subcomponent'>
+					<h6 class='subsection-header'><i class='material-icons teal-text'>looks_two</i>Flow-based Editor</h6>
 					<p class='subtext'>For the domain specialists. Re-use code and use precreated nodes to create variations of the same workflow. Completely customize your own node library suited to the needs of your business. If you work out your process once, there is no reason why you shouldn't be able to go from raw input to the desired output in a matter of minutes.</p>
 				</div>
 			</div>
 			<div class='row subsection'>
-				<div class='col m7 scale-transition scale-out'>
+				<div class='col m5 offset-m1 center-align scale-transition scale-out subcomponent'>
 					<img class='img--screen circle' src='./images/screen31.png'>
 				</div>
-				<div class='col m5 scale-transition scale-out'>
-					<h6 class='subsection-header'><i class='material-icons'>looks_3</i>Code Editor</h6>
+				<div class='col m5 scale-transition scale-out subcomponent'>
+					<h6 class='subsection-header'><i class='material-icons teal-text'>looks_3</i>Code Editor</h6>
 					<p class='subtext'>Hidden away in the final depths, yet present to allow advanced users absolute control over the environment.</p>
 				</div>
 			</div>
@@ -83,18 +84,16 @@
 			<div class="row center-align">
 			  <h4 class='section-header center-align'>Features</h4>
 			  <div class='row'>
-			      <div class="col m4 scale-transition scale-out">
-			      	<i class="large material-icons">chrome_reader_mode</i>
+			      <div class="col m4 scale-transition scale-out feature">
+			      	<i class="large material-icons teal-text feature-icon">chrome_reader_mode</i>
 			        <span class='col l12 mark'>Research-Based</span>
 			      </div>
-
-			      <div class="col m4 scale-transition scale-out">
-			      	<i class="large material-icons">settings</i>
+			      <div class="col m4 scale-transition scale-out feature">
+			      	<i class="large material-icons teal-text feature-icon">settings</i>
 			       	<span class='col l12 mark'>Customizable</span>
 			      </div>
-			      
-			      <div class="col m4 scale-transition scale-out">
-			      	<i class="large material-icons">code</i>
+			      <div class="col m4 scale-transition scale-out feature">
+			      	<i class="large material-icons teal-text feature-icon">code</i>
 			        <span class='col l12 mark'>Open Source</span>
 			      </div>
 			  </div>
@@ -103,6 +102,8 @@
 
 
 		<div class='divider'></div>
+
+		<br><br><br><br>
 
 		<!-- use cases -->
 		<section class='section-container section scrollspy container--feature' id='uses'>
@@ -150,13 +151,15 @@
     		  </div>
 		</section>
 
+		<br><br><br><br>
+
 		<!-- contact -->
 		<footer class="page-footer teal section scrollspy" id='contact'>
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
                 <h5>Contact Us</h5>
-                <p>We would love to hear from you. Give us a shout out at xyz@gmail.com</p>
+                <p>To customize Mobius Environment for your purpose, please get in touch with us at xyz@gmail.com. We would love to hear from you.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5>Links</h5>
@@ -188,18 +191,27 @@
 		    var instances = M.ScrollSpy.init(elems, {});
 		}
 
-		let scaleIns = document.getElementsByClassName('scale-out');
-		let added = false;
+		let component = document.getElementById('components');
+		let compItems = document.getElementsByClassName('subcomponent');
+		let features = document.getElementById('features');
+		let featureItems = document.getElementsByClassName('feature');
 		function addElements(){
-			for(let el of scaleIns){
+			if (isElementVisible(features)){
+				for(let el of featureItems){
+					setTimeout(function(){
+						el.classList.add('scale-in');
+					}, 300);
+				}
+			}
+
+			if (isElementVisible(component)){
+				for(let el of compItems){
 					setTimeout(function(){
 						el.classList.add('scale-in');
 					}, 500);
+				}
 			}
 		}
-
-		let features = document.getElementsById('features');
-
 
 		function isElementVisible(el) {
 		    var rect     = el.getBoundingClientRect(),
