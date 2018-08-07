@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+- 2.3.3
+cache: bundler
+before_install:
+- chmod +x build.sh
+install:
+- bundle install
+script:
+- "./build.sh"
+branches:
+  only:
+  - dev
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
