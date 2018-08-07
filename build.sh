@@ -2,7 +2,7 @@
 
 set -e
 
-DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/design-automation/the-mobius-project.github.io.git"
+DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/design-automation/the-mobius-project.git"
 
 function main {
 	clean
