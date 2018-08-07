@@ -35,7 +35,7 @@ function deploy {
 	git status
 	git commit -m "Latest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
 	git remote -v
-	git push $DEPLOY_REPO master:master
+	git push $DEPLOY_REPO dev:master
 }
 
 main
