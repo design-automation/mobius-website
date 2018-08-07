@@ -2,12 +2,14 @@
 <html>
 
 	{% include head.html %}
-
+	
+	<!-- primary: blue darken-4 -->
+	<!-- secondary: indigo lighten-4'-->
 	<body onscroll='addElements()'>
 		
 		<!-- navigation -->
 		<div class="navbar-fixed">
-		    <nav class='teal'>
+		    <nav class='blue darken-4'>
 		      <div class="nav-wrapper">
 		        <a href="#" class="brand-logo"></a>
 		        <ul class="right hide-on-med-and-down">
@@ -23,7 +25,7 @@
 	  	</div>
 		
 		<!-- hero -->
-		<section class='container--section grey lighten-2'>
+		<section class='container--section indigo lighten-4'>
 			{% include sections/header.html %}
 		</section>
 
@@ -32,21 +34,21 @@
 		<section class='container--section scrollspy' id='about'>
 			{% include sections/about.html %}
 		</section>
-
+		
 		<div class='divider'></div>
 
-		<!-- about -->
-		<section class='container--section scrollspy grey lighten-2' id='components'>
+
+		<!-- components -->
+		<section class='container--section scrollspy indigo lighten-4' id='components'>
 			{% include sections/components.html %}
 		</section>
-		
+
 		<div class='divider'></div>
 
 		<!-- features -->
 		<section class='container--section scrollspy' id='features'>
 			{% include sections/features.html %}
 		</section>
-
 
 		<div class='divider'></div>
 
@@ -56,8 +58,10 @@
 		</section>
 
 		<div class='divider'></div>
-
-		{% include sections/footer.html %}
+		
+		<footer class="page-footer scrollspy blue darken-4" id='contact'>
+			{% include sections/footer.html %}
+		</footer>
 		
 	</body>
 

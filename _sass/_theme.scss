@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,600,900');
 
-$accent-color: teal;
+$accent-color: #0d47a1;
+$black: #222;
 
 html, body{
 	position: relative;
@@ -45,8 +46,12 @@ header h1{
 		padding: 30px 0px;
 
 		.subsection__header{
-			border-bottom: 2px solid #222;
+			border-bottom: 2px solid $black;
 			text-transform: uppercase;
+
+			i{
+				color: $accent-color;
+			}
 		}
 
 		.subsection__text{
@@ -56,13 +61,15 @@ header h1{
 	
 		.img--screen{
 			height: 250px;
-			border: 8px solid teal;
+			border: 8px solid $accent-color;
 		}
 
 	}
 
 	/// feature section
 	.subsection--feature{
+
+		margin-top: 0px;
 
 		display: flex;
 		flex-direction: column;
@@ -76,11 +83,11 @@ header h1{
 			margin: 15px;
 
 			.feature__icon{
-				border: 4px solid teal;
+				border: 4px solid $accent-color;
 				background-color: white;
 				padding: 15px;
 				border-radius: 50%;
-				color: #222 !important; 
+				color: $black !important; 
 			}
 
 			.feature__text{
