@@ -3,27 +3,39 @@
 
 	{% include head.html %}
 
-	<body>
+	<body onscroll='addElements()'>
+		
+		<div class='navbar-fixed'>
+			<nav class='teal'>
+				<div class="nav-wrapper">
+				  <a href="#" class="brand-logo">
+				  		<img class='circle'src='./images/logo_edited.jpg'>
+				  </a>
+				  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				    <li><a href="#about">About</a></li>
+				    <li><a href="#components">Components</a></li>
+				    <li><a href="#features">Features</a></li>
+				    <li><a href="#contact">Contact Us</a></li>
+				    <li><a target='_blank' href='https://design-automation.github.io/mobius-cesium/gallery'>Gallery</a></li>
+				  </ul>
+				</div>
+			</nav>
+		</div>
 
 		<!-- hero -->
-		<section class='container container--hero'>
-			<div class='row'>
-				<div class='col m7'>
-					<img class='circle' src='./images/logo_edited.jpg'>
-					<h1>Möbius</h1>
-					<p>Because computing is <u>not</u> scripting.</p>
-					<a class="github-button" href="https://github.com/design-automation/mobius-cesium/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork design-automation/mobius-cesium on GitHub">Fork</a>
-					<a class="github-button" href="https://github.com/design-automation/mobius-cesium" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star design-automation/mobius-cesium on GitHub">Star</a>
-				</div>
-				<div>
-				</div>
-			</div>
+		<section class='section-container container--hero grey lighten-2'>
+			<img class='circle' style='width: 100px;' src='./images/logo_edited.jpg'>
+			<h1>The Möbius Project</h1>
+			<p>Computing for<u>all</u>.</p>
+			<a class="github-button" href="https://github.com/design-automation/mobius-cesium/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork design-automation/mobius-cesium on GitHub">Fork</a>
+			<a class="github-button" href="https://github.com/design-automation/mobius-cesium" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star design-automation/mobius-cesium on GitHub">Star</a>
 		</section>
 
-		
+
+		<div class='divider'></div>
 
 		<!-- about -->
-		<section class='container container--about orange'>
+		<section class='section-container section scrollspy container--about' id='about'>
 			<div class='row center-align'>
 				<h4 class='section-header'>What is Mobius?</h4>
 				<p>Mobius is a customizable visual programming environment suitable for all levels of programming expertise. With the need for coding fast performating every domainm we felt it was unrealistic to expect every person to get down to the nitty gritties of code to harness this power. Mobius promotes computation thinking with reusable modules and a drill-down approach, allowing users at various levels of expertise to interact with the code at a level germane to their usage - the output, the workflow or right down to the controls.</p>
@@ -32,78 +44,68 @@
 
 
 		<!-- about -->
-		<section class='container container--about'>
-			<div class='row'>
-				<div class='col m7'>
-					
+		<section class='section-container section scrollspy' id='components'>
+			<h4 class='section-header center-align'>Mobius Components</h4>
+			<div class='row subsection'>
+				<div class='col m7  scale-transition scale-out'>
+					<img class='img--screen circle' src='./images/screen1.png'>
 				</div>
-				<div class='col m5'>
-						<h6 class='subsection-header'><i class='material-icons'>looks_one</i>Presentation Layer</h6>
-						<p class='subtext'>Visualize your content in your own way, with custom viewers or default viewers that come with Mobius. This upper layer, hides all processing underneath and allows you to share your final result with the world.</p>
-				</div>
-			</div>
-		</section>
-
-		<!-- about -->
-		<section class='container container--about'>
-			<div class='row'>
-				<div class='col m5'>
-						<h6 class='subsection-header'><i class='material-icons'>looks_two</i>Flow-based Editor</h6>
-						<p class='subtext'>For the domain specialists. Re-use code and use precreated nodes to create variations of the same workflow. Completely customize your own node library suited to the needs of your business. If you work out your process once, there is no reason why you shouldn't be able to go from raw input to the desired output in a matter of minutes.</p>
-				</div>
-				<div class='col m7'>
-					
+				<div class='col m5  scale-transition scale-out'>
+					<h6 class='subsection-header'><i class='material-icons'>looks_one</i>Presentation Layer</h6>
+					<p class='subtext'>Visualize your content in your own way, with custom viewers or default viewers that come with Mobius. This upper layer, hides all processing underneath and allows you to share your final result with the world.</p>
 				</div>
 			</div>
-		</section>
-
-				<!-- about -->
-		<section class='container container--about'>
-			<div class='row'>
-				<div class='col m7'>
-					
+			<div class='row subsection'>
+				<div class='col m7  scale-transition scale-out'>
+					<img class='img--screen circle' src='./images/screen2.png'>
 				</div>
-				<div class='col m5'>
-						<h6 class='subsection-header'><i class='material-icons'>looks_3</i>Code Editor</h6>
-						<p class='subtext'>Hidden away in the final depths, yet present to allow advanced users absolute control over the environment.</p>
+				<div class='col m5  scale-transition scale-out'>
+					<h6 class='subsection-header'><i class='material-icons'>looks_two</i>Flow-based Editor</h6>
+					<p class='subtext'>For the domain specialists. Re-use code and use precreated nodes to create variations of the same workflow. Completely customize your own node library suited to the needs of your business. If you work out your process once, there is no reason why you shouldn't be able to go from raw input to the desired output in a matter of minutes.</p>
+				</div>
+			</div>
+			<div class='row subsection'>
+				<div class='col m7 scale-transition scale-out'>
+					<img class='img--screen circle' src='./images/screen31.png'>
+				</div>
+				<div class='col m5 scale-transition scale-out'>
+					<h6 class='subsection-header'><i class='material-icons'>looks_3</i>Code Editor</h6>
+					<p class='subtext'>Hidden away in the final depths, yet present to allow advanced users absolute control over the environment.</p>
 				</div>
 			</div>
 		</section>
 
 		
+		<div class='divider'></div>
 
 		<!-- features -->
-		<section class='container container--feature orange'>
+		<section class='section-container section scrollspy container--feature grey lighten-2' id='features'>
 			<div class="row center-align">
-
 			  <h4 class='section-header center-align'>Features</h4>
-
 			  <div class='row'>
-			      <div class="col m4">
+			      <div class="col m4 scale-transition scale-out">
 			      	<i class="large material-icons">chrome_reader_mode</i>
 			        <span class='col l12 mark'>Research-Based</span>
 			      </div>
 
-			      <div class="col m4">
+			      <div class="col m4 scale-transition scale-out">
 			      	<i class="large material-icons">settings</i>
 			       	<span class='col l12 mark'>Customizable</span>
 			      </div>
 			      
-			      <div class="col m4">
+			      <div class="col m4 scale-transition scale-out">
 			      	<i class="large material-icons">code</i>
 			        <span class='col l12 mark'>Open Source</span>
 			      </div>
 			  </div>
-				
-
 		    </div>
 		</section>
 
 
-		
+		<div class='divider'></div>
 
 		<!-- use cases -->
-		<section class='container container--feature'>
+		<section class='section-container section scrollspy container--feature' id='uses'>
 
 			  <h4 class='center-align section-header'>Mobius Customizations</h4>
 
@@ -146,12 +148,10 @@
 					</div>
 
     		  </div>
-
 		</section>
 
-
 		<!-- contact -->
-		<footer class="page-footer orange">
+		<footer class="page-footer teal section scrollspy" id='contact'>
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -172,7 +172,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2018 CodeTheFuture
+            © 2018 Design Automation Lab
             </div>
           </div>
         </footer>
@@ -181,5 +181,47 @@
 	</body>
 
 
+
+	<script>
+		window.onload = function(){
+		    var elems = document.querySelectorAll('.scrollspy');
+		    var instances = M.ScrollSpy.init(elems, {});
+		}
+
+		let scaleIns = document.getElementsByClassName('scale-out');
+		let added = false;
+		function addElements(){
+			for(let el of scaleIns){
+					setTimeout(function(){
+						el.classList.add('scale-in');
+					}, 500);
+			}
+		}
+
+		let features = document.getElementsById('features');
+
+
+		function isElementVisible(el) {
+		    var rect     = el.getBoundingClientRect(),
+		        vWidth   = window.innerWidth || doc.documentElement.clientWidth,
+		        vHeight  = window.innerHeight || doc.documentElement.clientHeight,
+		        efp      = function (x, y) { return document.elementFromPoint(x, y) };     
+
+		    // Return false if it's not in the viewport
+		    if (rect.right < 0 || rect.bottom < 0 
+		            || rect.left > vWidth || rect.top > vHeight)
+		        return false;
+
+		    // Return true if any of its four corners are visible
+		    return (
+		          el.contains(efp(rect.left,  rect.top))
+		      ||  el.contains(efp(rect.right, rect.top))
+		      ||  el.contains(efp(rect.right, rect.bottom))
+		      ||  el.contains(efp(rect.left,  rect.bottom))
+		    );
+		}
+
+
+	</script>
 
 </html>

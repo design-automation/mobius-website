@@ -5,6 +5,7 @@ $primary-color: lighten(green, 1) !default;
 html, body{
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -15,16 +16,11 @@ h1, h2, h3, h4, h5, h6{
 
 p{
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 32px;
 }
 
 .bold{
 	font-weight: 900;
-}
-
-.container{
-	width: 100%;
-	padding: 60px 30px;
 }
 
 .mark{
@@ -32,13 +28,6 @@ p{
 	line-height: 32px;
 	font-weight: 600;
 	margin: 15px 0px;
-}
-
-
-@media (min-width: 1025px) {
-  	section.container{
-  		padding: 60px 20%;
-  	}
 }
 
 .subtext{
@@ -52,8 +41,13 @@ p{
 }
 
 .section-header{
-	@extend .text-orange, .text-lighten-4;
+	padding-top: 45px;
 	padding-bottom: 60px;
+	margin: 0px;
+}
+
+.scale-transition.scale-in{
+	transition-duration: 0.6s !important;
 }
 
 
@@ -78,5 +72,42 @@ a{
 	color: inherit;
 }
 
+.brand-logo{
+	img{
+		width: 45px;
+		height: 45px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+}
+
+
 .container--hero{
+	//background: linear-gradient(to right, #4b6c5d, #ffb74d );
+	width: 100vw !important;
+	padding: 45px !important;
+	margin: 0px !important;
+	text-align: center;
+}
+
+
+@media (min-width: 1025px) {
+  	.section-container{
+		padding: 50px 150px;
+  	}
+
+  	.subsection{
+  		padding-top: 50px;
+  		padding-bottom: 50px;
+  	}
+	
+	.img-screen{
+		margin: 45px;
+	}
+
+}
+
+
+.img--screen{
+	height: 250px;
 }
