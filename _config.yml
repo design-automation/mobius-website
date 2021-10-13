@@ -1,2 +1,3 @@
 theme: jekyll-theme-minimal
 github: [metadata]
+baseurl: /mobius-website/      # place folder name if the site is served in a subfolder
