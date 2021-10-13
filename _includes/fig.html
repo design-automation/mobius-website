@@ -1,0 +1,8 @@
+<figure>
+    <a href="/assets/images/{{ include.file }}">
+        <img src="/assets/images/{{ include.file }}"/>
+    </a>
+    {% if include.file %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>

@@ -1,0 +1,26 @@
+<div class="item-wrapper">
+
+    {% if include.smlfile and include.file %}
+        <div class="item-thumb">
+            <img class="item-img" src="/assets/images/{{ include.smlfile }}" onClick="openModal('/assets/images/{{ include.file }}')"/>
+        </div>
+    {% elsif include.file %}
+        <div class="item-thumb">
+          <img class="item-img" src="/assets/images/{{ include.file }}" onClick="openModal('/assets/images/{{ include.file }}')"/>
+        </div>
+    {% endif %}
+
+    {% if include.title %}
+        <h4 class="item-title">{{ include.title }}</h4>
+    {% endif %}
+    {% if include.subtitle %}
+        <h5 class="item-title"><i>{{ include.subtitle }}</i></h5>
+    {% endif %}
+    {% if include.descr %}
+        <p class="item-descr">{{ include.descr }}</p>
+    {% endif %}
+    {% if include.link %}
+        <a href="{{ include.linkurl }}">{{ include.link }}</a>
+    {% endif %}
+
+</div>
