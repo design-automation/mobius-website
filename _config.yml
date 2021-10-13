@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
+repository: design-automation/mobius-website
 github: [metadata]
-baseurl: /mobius-website/      # place folder name if the site is served in a subfolder
+#baseurl: /mobius-website/      # place folder name if the site is served in a subfolder
