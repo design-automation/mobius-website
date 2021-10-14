@@ -1,7 +1,7 @@
 ---
-title: Mobius Evolver
+title: Möbius Evolver
 ---
-# Mobius Evolver
+# Möbius Evolver
 
 - This is a test
 

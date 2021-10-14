@@ -1,5 +1,5 @@
-The Mobius Platform website:
-http://mobius.design-automation.net/
+The Möbius Platform website:
+http://Möbius.design-automation.net/
 
 
 To setup, follow the instructions here:

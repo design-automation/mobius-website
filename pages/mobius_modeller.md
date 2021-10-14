@@ -1,7 +1,7 @@
 ---
-title: Mobius Modeller
+title: Möbius Modeller
 ---
-# Mobius Modeller
+# Möbius Modeller
 
 - This is a test
 
