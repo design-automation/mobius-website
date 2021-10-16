@@ -37,7 +37,7 @@ Previous versions:
 * [Möbius Modeller Version 0.4.26](https://design-automation.github.io/mobius-parametric-modeller-0-4-26)
 * [Möbius Modeller Version 0.4.18](https://design-automation.github.io/mobius-parametric-modeller-0-4-18)
 * [Möbius Modeller Version 0.4.11](https://design-automation.github.io/mobius-parametric-modeller-0-4-11)
-* [Möbius Modeller Version 0.3](https://design-automation.github.io/mobius-geospatial/gallery)
+* [Möbius Modeller Version 0.3](https://design-automation.github.io/mobius-geospatial/editor)
 * [Möbius Modeller Version 0.2](https://design-automation.github.io/mobius-modeller)
 - [Möbius Modeller Version 0.1](https://design-automation.github.io/mobius/)
 
