@@ -37,6 +37,9 @@ Previous versions:
 * [Möbius Modeller Version 0.4.26](https://design-automation.github.io/mobius-parametric-modeller-0-4-26)
 * [Möbius Modeller Version 0.4.18](https://design-automation.github.io/mobius-parametric-modeller-0-4-18)
 * [Möbius Modeller Version 0.4.11](https://design-automation.github.io/mobius-parametric-modeller-0-4-11)
+* [Möbius Modeller Version 0.3](https://design-automation.github.io/mobius-geospatial/gallery)
+* [Möbius Modeller Version 0.2](https://design-automation.github.io/mobius-modeller)
+- [Möbius Modeller Version 0.1](https://design-automation.github.io/mobius/)
 
 ## Möbius Geospatial Modeller, version 0.3.x
 
@@ -71,7 +74,7 @@ exploring distance to MRT versus population density in Singapore." %}
 The Möbius Parametric Modeller allows  procedures to be developed for generating complex 3D models
 of buildings and urban neighbourhoods. 
 
-* [Möbius Modeller, Version 0.2.x](https://design-automation.github.io/mobius-modeller)
+* [Try Möbius Modeller, Version 0.2.x](https://design-automation.github.io/mobius-modeller)
 * [Check out the Möbius Parametric Modeller Youtube Channel](https://www.youtube.com/channel/UCNJUnZ7erTrNWnZVjvgE59g)
 
 {% include fig.html file="mobius2_stairs.png" caption="The Möbius Parametric Modeller, showing an
@@ -84,7 +87,7 @@ Möbius Prototype is no longer under development. It is maintained here for hist
 Möbius Prototype tested out the key computational thinking and modelling ideas that were later
 included in Möbius Geospatial and Möbius Parametric.
 
-- [Möbius Modeller, Version 0.1.x](https://design-automation.github.io/mobius/)
+- [Try Möbius Modeller, Version 0.1.x](https://design-automation.github.io/mobius/)
 - [Möbius Prototype on GitHub](https://github.com/design-automation/mobius)
 
 The Modeller also included the [ViziCities](http://ww.vizicities.com/) viewer, developed by Prof
