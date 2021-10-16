@@ -3,13 +3,17 @@ title: Möbius Spatial Information Model (SIM)
 ---
 # Overview
 
-- Under Construction
+ Möbius Spatial Information Model in a Javascript/Typescript library for generating and manipulating
+ 3D models. 
 
+- This pages needs to be updated (16 Oct 2021)
+
+## Conceptual Model
 
 In order to write code using the Spatial Information Model (SIM) library, it is useful to
-understand some of the theory.
+understand the SIM conceptual model.
 
-## Topological Modelling
+### Topological Modelling
 
 In order to allow for greater control, the SIM approach requires models to be defined using a
 topological modelling approach. Topology is a mathematical approach that defines components in terms
@@ -27,7 +31,7 @@ topology implicitly. This means that geometric objects can stored using simple l
 representations, and topology is generated on demand only when needed, in response to certain user
 operations.
 
-## Model Entities
+### Model Entities
 
 Elements in the model consist of three types: geometric objects, geometric points, and implicit
 topological components.
@@ -40,7 +44,7 @@ Objects are defined through points. For example, a polyline is defined by connec
 points. Topological components then form a data structure that creates a well defined relationship
 between the objects and the points.
 
-## Model Semantics
+### Model Semantics
 
 Semantics can be added to the model in two ways: by defining attributes and by defining groups.
 
@@ -57,4 +61,19 @@ Semantics can be added to the model in two ways: by defining attributes and by d
 
 The use of attributes and groups allows rich 3D data sets to be created by users, suited and
 customised to their specific purposes.
+
+## Installation
+
+The SIM library is available through the NPM package manager.
+
+- [Möbius SIM on NPM](https://www.npmjs.com/package/@design-automation/mobius-sim){:target="blank"}
+
+To install:
+ - `npm i @design-automation/mobius-sim`
+
+## Source Code
+
+Source code is available on Github.
+
+- [Möbius SIM on Github](https://github.com/design-automation/mobius-sim){:target="blank"}
 
