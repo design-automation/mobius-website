@@ -7,6 +7,8 @@ Möbius Gallery is an open-source web-app for creating web galleries of Möbius 
 gallery allows visitors on the web to view and execute scripts in the gallery. For staff, secure
 log-in portal is provided.  
 
+Galleries are hosted in the cloud, on the Amazon Web Services (AWS) cloud computing platform.
+
 Examples of Möbius Gallery:
 
 - Möbius Galleries for AR2524 Spatial Computational Thinking
@@ -20,6 +22,4 @@ Source code is available on Github.
 - Lead Developer (2018 - ongoing): Tung Do Phuong Bui
 - [Möbius Gallery on Github](https://github.com/design-automation/mobius-gallery){:target="blank"}
 
-## Cloud Platform
 
-Galleries are hosted in the Amazon Web Services (AWS) cloud.
