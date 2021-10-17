@@ -43,6 +43,10 @@ Previous versions:
 * [Möbius Modeller Version 0.2](https://design-automation.github.io/mobius-modeller){:target="Mobius"}
 - [Möbius Modeller Version 0.1](https://design-automation.github.io/mobius/){:target="Mobius"}
 
+# History
+
+The history of Möbius Modeller.
+
 ## Möbius Geospatial Modeller, version 0.3.x
 
 The Möbius Geospatial Modeller was developed between 2017 and 2018.

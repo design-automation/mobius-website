@@ -12,7 +12,7 @@ The SIM Conceptual Model defines how spatial information is representation.
 
 The conceptual model strives to be a highly generic type of representation that can be used to
 represent a wide variety of types of spatial information. It has no concepts that are specific to
-any type of products, such as buildings, cities, and so forth. SUch concepts can be added to the
+any type of products, such as buildings, cities, and so forth. Such concepts can be added to the
 representation by the user, through user-defined collections, semantics, and connectivity
 
 ## Entities
@@ -134,11 +134,14 @@ attrib.set(model, pgon, "type", "base", attrib.ESet.ONE_VALUE);
 const data = io.Export(model, ext, io.EExport.GLTF);
 ```
 
-## SIM Encoding
+# Source Code
 
-SIM models can be encoded as JSON data, and can be saved as JSON formatted files.
+Source code is available on Github.
 
-# Installation
+- Lead Developer (2017 - ongoing): [Patrick Janssen](http://patrick.janssen.name)
+- [Möbius SIM on Github](https://github.com/design-automation/mobius-sim){:target="blank"}
+
+## Installation
 
 The SIM library is available through the NPM package manager.
 
@@ -146,10 +149,3 @@ The SIM library is available through the NPM package manager.
 
 To install:
  - `npm i @design-automation/mobius-sim`
-
-## Source Code
-
-Source code is available on Github.
-
-- [Möbius SIM on Github](https://github.com/design-automation/mobius-sim){:target="blank"}
-

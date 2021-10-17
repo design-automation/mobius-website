@@ -29,18 +29,6 @@ allows learners to interact with 3D spatial models directly in the MOOC web page
 {% include fig.html file="mobius_mooc_generator_embed.png" caption="A Möbius Modeller example
 embedded directly into the MOOC web page." %}
 
-# Links
-
-Various links:
-
-## Developers
-
-- Lead PI: [Patrick Janssen](http://patrick.janssen.name)
-
-## Source Code Repository
-
-- [Möbius MOOC Generator Github Repository](https://github.com/design-automation/edx-generator)
-
 ## MOOCs
 
 MOOCs created using the Möbius MOOC Generator:
@@ -49,3 +37,10 @@ MOOCs created using the Möbius MOOC Generator:
 - [Spatial Computational Thinking: Procedural Modelling](https://www.edx.org/course/procedural-modelling)
 - [Spatial Computational Thinking: Generative Modelling](https://www.edx.org/course/generative-modelling)
 - [Spatial Computational Thinking: Performative Modelling](https://www.edx.org/course/performative-modelling)
+
+# Source Code
+
+Source code is available on Github.
+
+- Lead Developer (Aug 2019 - ongoing): [Patrick Janssen](http://patrick.janssen.name)
+- [Möbius MOOC Generator Github Repository](https://github.com/design-automation/edx-generator)

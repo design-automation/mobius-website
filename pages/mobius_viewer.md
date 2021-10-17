@@ -9,13 +9,8 @@ dropping the it onto the canvas.
 
 Live viewer:
 
-- [Möbius Viewer Version 0.7](https://design-automation.github.io/mobius-viewer-dev-0-7/)
-- [Möbius Viewer Version 0.6](https://design-automation.github.io/mobius-viewer/)
-
-Source code:
-
-- [Möbius Viewer Version 0.7 on Github](https://github.com/design-automation/mobius-viewer-dev-0-7)
-- [Möbius Viewer Version 0.6 on Github](https://github.com/design-automation/mobius-viewer)
+- [Möbius Viewer Version 0.7](https://design-automation.github.io/mobius-viewer-dev-0-7/){:target="Mobius"}
+- [Möbius Viewer Version 0.6](https://design-automation.github.io/mobius-viewer/){:target="Mobius"}
 
 ## Embedding the Viewer in a Web Page
 
@@ -23,3 +18,10 @@ The viewer can be embedded in a web page within an HTML frame. The Javascript co
 can then interact with the embedded viewer via a Post-message API. This allows teh web page to set
 viewer settings and to load models.
 
+# Source Code
+
+Source code is available on Github.
+
+- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- [Möbius Viewer Version 0.7 on Github](https://github.com/design-automation/mobius-viewer-dev-0-7){:target="blank"}
+- [Möbius Viewer Version 0.6 on Github](https://github.com/design-automation/mobius-viewer){:target="blank"}

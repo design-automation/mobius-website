@@ -11,13 +11,6 @@ Example runs using Mobius Evolver:
 - [Example 1](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=e5fbecee-ca9c-4e13-80dc-8da949424969){:target="Mobius"}
 - [Example 2](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=111ade96-4e7b-4ad5-8bac-cf63dc87c89c){:target="Mobius"}
 
-## Source Code
-
-Source code is available on Github.
-
-- [Möbius Evolver on Github](https://github.com/design-automation/mobius-evo){:target="blank"}
-- [Möbius Evolver Layers on Github](https://github.com/design-automation/mobius-evo-layers){:target="blank"}
-
 ## Optimisation Algorithm
 
 For the optimization process, an Evolutionary Programming (EP) algorithm is used. EP is one of the
@@ -71,5 +64,21 @@ take just two or three minutes. This speed of execution is vital in order to kee
 alive. When the designer only needs to wait a few minutes to get back the optimised designs, there
 is no disruption to their thought process and ideas.
 
+# Source Code
+
+Source code is available on Github.
+
+- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- [Möbius Evolver on Github](https://github.com/design-automation/mobius-evo){:target="blank"}
+- [Möbius Evolver Layers on Github](https://github.com/design-automation/mobius-evo-layers){:target="blank"}
+
+## Installation
+
+Möbius Evolver has been developed for the Amazon Web Services (AWS) cloud computing platform. 
+
+A user-friendly installation process has been developed that makes it very easy to install Möbius
+Evolver on your own AWS account. This will allow you to run your own evolutionary explorations at 
+a very low cost. See the installation instructions on the 
+[Möbius Evolver Github page](https://github.com/design-automation/mobius-evo){:target="blank"}.
 
 

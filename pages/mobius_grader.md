@@ -9,18 +9,10 @@ using [Möbius Modeller](mobius_modeller.html).
 The Möbius Grader is used for grading assignments for the 
 [Edx Spatial Computational Thinking Professional Certificate Programme](mobius_moocs.html). 
 
-## Source Code
+## Grading Process
 
-Source code is available on Github.
-
-- [Möbius Grader on Github](https://github.com/design-automation/mobius-external-grader){:target="blank"}
-- [Möbius Grader Edx Server on Github](https://github.com/design-automation/edx-server){:target="blank"}
-
-## Cloud Platform
-
-Assignments are graded in the Amazon Web Services (AWS) cloud.
-
-#### Automated Grader - Geometric Example
+Möbius Grader automates the grading process of parametric modelling assignments in cloud, on the
+Amazon Web Services (AWS) platform.
 
 Let's imagine that you are required to create a script that generates a box consisting
 of six polygon faces, with variable height, width and length. For this description, we will still
@@ -53,6 +45,14 @@ So let's say that you made an error in your script, and that the results are as 
 Your final grade would be the average of the two results:
 
 * grade = (5/6 + 2/6) / 2 = 58%
+
+## Source Code
+
+Source code is available on Github.
+
+- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- [Möbius Grader on Github](https://github.com/design-automation/mobius-external-grader){:target="blank"}
+- [Möbius Grader Edx Server on Github](https://github.com/design-automation/edx-server){:target="blank"}
 
 ## Paper
 
