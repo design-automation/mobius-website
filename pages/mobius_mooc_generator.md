@@ -1,24 +1,33 @@
 ---
-title: Edx Generator 
+title: Möbius MOOC Generator 
 ---
 # Overview
 
-The Edx Generator is a Python library of generating Edx Massive Open Online Courses (MOOCs) from
-markdown saved in a hierarchical folder structure. 
+The Möbius MOOC Generator is a Python library for streamlining the process of creating Massive Open
+Online Courses (MOOCs) on the Edx platform. 
 
-The user writes the content opf teh MOOCs as a series of markdown files. These files can be
-developed collaboratively, using existing tools such as Git version control. This makes the process
-of creating and managing the MOOC content more efficient. 
+The user writes the content for the MOOCs as a series of markdown files, saved in a hierarchical
+folder structure that reflects the MOOC content structure. These files can be developed
+collaboratively, using existing tools such as Git version control. This makes the process of
+creating and managing the MOOC content more efficient. 
 
-The Edx Generator library is then used to process the markdown files, and to generate a single zip
-file containing all the data required to create the whole course. This zip files can be imported
-into the Edx MOOC, which will create the complete MOOC content.
+The Möbius MOOC Generator library is then used to process the markdown files, and to generate a
+single zip file containing all the data required to generate the whole course. This zip files can be
+imported into the Edx MOOC, which will create the complete MOOC.
 
+{% include fig.html file="mobius_mooc_generator_import.png" caption="Importing a Möbius MOOC zip
+file within the Edx platform ." %}
 
-{% include fig.html file="houdarcs.png" caption="Houdarcs, a library of plugins for Sidefx Houdini
-to support performance-based design." %}
+{% include fig.html file="mobius_mooc_generator_outline.png" caption="The resulting course content,
+automatically generated from the zip import." %}
 
-The Edx Generator has built-in support for embedding Mobius Modeller exercises 
+## Embedding Möbius Modeller
+
+The generator supports the ability to embed Möbius Modeller directly into the MOOC pages. This
+allows learners to interact with 3D spatial models directly in the MOOC web pages.
+
+{% include fig.html file="mobius_mooc_generator_embed.png" caption="A Möbius Modeller example
+embedded directly into the MOOC web page." %}
 
 # Links
 
