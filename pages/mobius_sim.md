@@ -3,66 +3,132 @@ title: Möbius Spatial Information Model (SIM)
 ---
 # Overview
 
- Möbius Spatial Information Model in a Javascript/Typescript library for generating and manipulating
- 3D models. 
+Möbius Spatial Information Model (SIM) in a Javascript/Typescript library for generating and
+manipulating 3D spatial information. 
 
-- This pages needs to be updated (16 Oct 2021)
+# SIM Conceptual Model
 
-## Conceptual Model
+The SIM Conceptual Model defines how spatial information is representation. 
 
-In order to write code using the Spatial Information Model (SIM) library, it is useful to
-understand the SIM conceptual model.
+The conceptual model strives to be a highly generic type of representation that can be used to
+represent a wide variety of types of spatial information. It has no concepts that are specific to
+any type of products, such as buildings, cities, and so forth. SUch concepts can be added to the
+representation by the user, through user-defined collections, semantics, and connectivity
 
-### Topological Modelling
+## Entities
 
-In order to allow for greater control, the SIM approach requires models to be defined using a
-topological modelling approach. Topology is a mathematical approach that defines components in terms
-of adjacency and connectivity. For example, a mesh may be described as being an object with a set of
-*faces*, each bounded by a set of straight *edges*, each defined by a pair of *vertices*, each of
-which is associated with a point in space.
+The conceptual model defines a set of entities and attributes. 
 
-Topology is useful in that it allows models to be described and analysed in more advanced ways. For
-example, in the case of the mesh, the faces adjacent to any particular face can be easily discovered
-by navigating through the topological data structure. However, the downside of topology is that it
-makes models heavier, due to the fact that additional data needs to be stored. 
+Entities represent the geometry and topology of the spatial information. Attributes represent the
+semantics of the spatial information. Attributes are key-value pairs that can eb attached to any
+type of entity.
 
-In order to ensure that models remain lightweight and easy to work with, the PIM approach defines
-topology implicitly. This means that geometric objects can stored using simple lightweight
-representations, and topology is generated on demand only when needed, in response to certain user
-operations.
+Various different types of entities are define. 
+- __Model__: A the top level, there is the _model_ entity that encapsulates the whole model. 
+- __Collections__: A model can contain zero or more _collections_. A collection is an aggregation
+  that can contain either objects or other collections.
+- __Objects__: A model can contain zero geometric entities called _objects_. Three types of objects
+  are define: _polygons_, _polylines_, and _points_. 
+- __Topology__: Objects have an internal topological structure made up of _topological_ entities.
+  There are three types of topological entities: _wires_, _edges_, and _vertices_.
+- __Positions__: A model can contain _positions_. Positions represent specific locations in the
+  model, specified by an `xyz` attribute, whose value is a list of three numbers. This attribute is
+  non-optional. It is the only required attribute in the SIM conceptual model. 
 
-### Model Entities
+Overall, there are therefore 9 types of entities:
+- models
+- collections
+- polygons, polylines, points 
+- wires, edges, vertices 
+- positions
 
-Elements in the model consist of three types: geometric objects, geometric points, and implicit
-topological components.
+## Topology
 
-- __Objects__ are any type of geometric object, such as polylines and polymeshes. 
-- __Points__ are 3D points in the model, defined by a set of XYZ coordinates. 
-- __Topology__ consists of a set of implicit component parts belonging to individual objects.
+A _wire_ consists of a sequence of _edges_ and a sequence of _vertices_. Each edge connects exactly
+two vertices. If a wire is closed, then the number of edges is equal to the number of vertices. If 
+a wire is open, then the number of edges is one less than the number of vertices. 
 
-Objects are defined through points. For example, a polyline is defined by connecting a series of
-points. Topological components then form a data structure that creates a well defined relationship
-between the objects and the points.
+Every vertex is linked to exactly one position. The `xyz` attribute of the position defines the
+location of the vertex. 
 
-### Model Semantics
+Each type of object has a specific topological structure.  
+- Polygons are defined by a list of closed wires. The first wire defines the outer boundary of the
+  polygon. Subsequent wires define holes within the polygon.
+- Polylines are defined by a single wire that can be either open or closed.
+- Points are defined by a single vertex.
 
-Semantics can be added to the model in two ways: by defining attributes and by defining groups.
+Topological entities are created and destroyed based on specific modelling operations. The user
+cannot directly create topological entities. For example, when a user creates a polyline, the wire,
+edges, and vertices will be automatically created.
 
-- __Attributes__ are data values that can be attached to elements in the model. Attributes can be
-  attached to all element types, including geometric objects, geometric points, and topological
-  components. Attributes allow elements in the model to have different values. For example, creating
-  an attributed called "colour" for *faces*, means that all faces in the model can be assigned a
-  different colour.
+## Attributes
 
-- __Groups__ are collections of elements in the model. All elements types can be grouped, including
-  geometric objects, geometric points, and topological components. Each group can be assigned a set
-  of properties, as key value pairs. Groups can also be nested, thereby allowing various more
-  complex types of data structures to be created, including hierarchies.
+Attributes can be added to any type of entity. An attribute has a unique name and a value. The name
+is a string. The value can have the following types:
+- number (float or integer)
+- string
+- boolean
+- list, e.g. `[1,2,3]`
+- dictionary, e.g. `{"a":1, "b":2, "c":3}`
 
-The use of attributes and groups allows rich 3D data sets to be created by users, suited and
-customised to their specific purposes.
+The list or dictionary data structures can contain numbers, strings, booleans or other lists or
+dictionaries. 
 
-## Installation
+## User-defined Collections
+
+Users can organise their spatial information in complex ways using collections. Collections can
+contain heterogeneous set of objects, and can be nested to create hierarchies. This allows
+representations to be defined that decompose models into different parts. In addition, objects can
+be members of multiple collections, thereby allowing multiple representational schemas to be
+applied at the same time. 
+
+## User-defined Semantics
+
+Users can can define custom semantics by adding attributes to any of the entities in the model. This
+allows users to customise the data representation to their particular use case. In existing spatial
+representations such as GeoJSON, attributes can only be added to objects. The ability to add
+attributes to the model, to collections, and to topological entities (wires, edges, and vertices) is
+a powerful feature.
+
+## User-defined Connectivity
+
+Users can create custom connectivity relationships between objects in the model. By sharing
+positions, vertices in objects can become welded. In other spatial data representations, creating
+such connections is either not possible, or specific types of relationships are hard-coded into the
+representation. With the SIM approach, users can define their own connectivity relationships based
+on their use cases. For example, for certain type sof network analysis, a user may want to create
+connectivity relationships between polylines representing street networks. 
+
+# SIM Programming Model
+
+The SIM library implements the SIM COnceptual Model, and provides a Typescript API for creating and
+manipulating SIM models.
+
+The SIM API is a functional API that has functions for performing various type of modelling
+operations. Entities in the model are referenced by their entity IDs. The first argument to all
+functions is the SIM model that is being operated on.
+
+For example, to create a polygon and extrude it:
+
+```
+import GIModel from ...
+import pattern from ...
+import make from ...
+import attrib from ...
+import io from ...
+const model = new GIModel();
+const posis = pattern.Rectangle(model, [0,0,0], [10, 20]);
+const pgon = make.Polygon(model, posis);
+const ext = make.Extrude(model, pgon, [0,0,10], 3, make.EExtrude.QUADS);
+attrib.set(model, pgon, "type", "base", attrib.ESet.ONE_VALUE);
+const data = io.Export(model, ext, io.EExport.GLTF);
+```
+
+## SIM Encoding
+
+SIM models can be encoded as JSON data, and can be saved as JSON formatted files.
+
+# Installation
 
 The SIM library is available through the NPM package manager.
 

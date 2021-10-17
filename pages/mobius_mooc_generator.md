@@ -39,9 +39,11 @@ Various links:
 
 ## Source Code Repository
 
-- [Edx Generator Github Repository](https://github.com/design-automation/edx-generator)
+- [Möbius MOOC Generator Github Repository](https://github.com/design-automation/edx-generator)
 
 ## MOOCs
+
+MOOCs created using the Möbius MOOC Generator:
 
 - [Professional Certificate Programme in Spatial Computational Thinking](https://www.edx.org/professional-certificate/nus-spatial-computational-thinking)
 - [Spatial Computational Thinking: Procedural Modelling](https://www.edx.org/course/procedural-modelling)
