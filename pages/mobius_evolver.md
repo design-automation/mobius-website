@@ -8,22 +8,22 @@ runs on the Amazon AWS Clouding Computing platform.
 
 Example runs using Mobius Evolver:
 
-- [Example 1](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=e5fbecee-ca9c-4e13-80dc-8da949424969)
-- [Example 2](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=111ade96-4e7b-4ad5-8bac-cf63dc87c89c)
+- [Example 1](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=e5fbecee-ca9c-4e13-80dc-8da949424969){:target="Mobius"}
+- [Example 2](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=111ade96-4e7b-4ad5-8bac-cf63dc87c89c){:target="Mobius"}
 
 ## Source Code
 
 Source code is available on Github.
 
-- [Möbius Evolver on Github](https://github.com/design-automation/mobius-evo)
-- [Möbius Evolver Layers on Github](https://github.com/design-automation/mobius-evo-layers)
+- [Möbius Evolver on Github](https://github.com/design-automation/mobius-evo){:target="blank"}
+- [Möbius Evolver Layers on Github](https://github.com/design-automation/mobius-evo-layers){:target="blank"}
 
 ## Optimisation Algorithm
 
 For the optimization process, an Evolutionary Programming (EP) algorithm is used. EP is one of the
 four major evolutionary algorithm paradigms. It was first used by Lawrence J. Fogel in the US in
 1960s as a learning process aiming to generate artificial intelligence 
-([Wikipedia](https://en.wikipedia.org/wiki/Evolutionary_programming)). EP focuses on
+([Wikipedia](https://en.wikipedia.org/wiki/Evolutionary_programming){:target="blank"}). EP focuses on
 the evolution of distinct species. 
 
 ## Reflective Intelligence Amplification

@@ -10,14 +10,14 @@ log-in portal is provided.
 Examples of Möbius Gallery:
 
 - Möbius Galleries for AR2524 Spatial Computational Thinking
-  - 2020/2021 AR2524 [Gallery](https://design-automation-edu.github.io/AR2524-AY2021-Gallery/)
-  - 2019/2020 AR2524 [Gallery](https://design-automation-edu.github.io/AR2524-AY2020-Gallery/)
+  - 2020/2021 AR2524 [Gallery](https://design-automation-edu.github.io/AR2524-AY2021-Gallery/){:target="blank"}
+  - 2019/2020 AR2524 [Gallery](https://design-automation-edu.github.io/AR2524-AY2020-Gallery/){:target="blank"}
 
 ## Source Code
 
 Source code is available on Github.
 
-- [Möbius Gallery on Github](https://github.com/design-automation/mobius-gallery)
+- [Möbius Gallery on Github](https://github.com/design-automation/mobius-gallery){:target="blank"}
 
 ## Cloud Platform
 

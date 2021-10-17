@@ -13,8 +13,8 @@ The Möbius Grader is used for grading assignments for the
 
 Source code is available on Github.
 
-- [Möbius Grader on Github](https://github.com/design-automation/mobius-external-grader)
-- [Möbius Grader Edx Server on Github](https://github.com/design-automation/edx-server)
+- [Möbius Grader on Github](https://github.com/design-automation/mobius-external-grader){:target="blank"}
+- [Möbius Grader Edx Server on Github](https://github.com/design-automation/edx-server){:target="blank"}
 
 ## Cloud Platform
 

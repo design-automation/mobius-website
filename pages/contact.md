@@ -9,7 +9,7 @@ title: Contact
 
 ## Location
 
-- [Department of Architecture, NUS](http://www.arch.nus.edu.sg/)
+- [Department of Architecture, NUS](http://www.arch.nus.edu.sg/){:target="blank"}
 
 The Design Automation Lab  
 Room 03-12 SDE 3  

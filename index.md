@@ -7,13 +7,14 @@ The Möbius Ecosystem encompasses various open-source tools and libraries for su
 computational thinking. At the core of this ecosystem is Möbius Modeller, a parametric modelling
 application for the web. 
 
-* Go to the [latest version of Möbius Modeller](https://mobius-08.design-automation.net){:target="mobius"}.
+* Go to the [latest version of Möbius Modeller](https://mobius-08.design-automation.net){:target="MobiusModeller"}.
 
-The Möbius Ecosystem has been developed by the [Design Automation
-Laboratory](https://design-automation.net), at the National University of Singapore.
+The Möbius Ecosystem has been developed by the 
+[Design Automation Laboratory](https://design-automation.net){:target="DAL"}
+, at the National University of Singapore.
 
 The Director of the Design Automation Lab and the Principal Investigator for the Mobius development
-is [Assoc. Professor Patrick Janssen](https://patrick.janssen.name){:target="patrick-janssen"}.
+is [Assoc. Professor Patrick Janssen](https://patrick.janssen.name){:target="PatrickJanssen"}.
 
 The Möbius Modeller can be customised to different domains by developing specialized function
 libraries and specialized viewers. Contact us if you are interested in applying the Möbius Modeller
