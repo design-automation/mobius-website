@@ -108,7 +108,8 @@ urban model."  %}
 ## Möbius Modeller (Aug 2017 - ongoing)
 - Research Project: [Smart Design](https://design-automation.net/projects/smart_design.html){:target="DAL"}
 - Research Project: [Computational Thinking](https://design-automation.net/projects/comp_think.html){:target="DAL"}
-- Lead Developer: Akshata Mohanty
+- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- Lead Developer (2017-2018): Akshata Mohanty
 - Research Assistant: Sun Hui Yao
 - Student Assistants: Lim Yan Yee Joie, Derek Pung Shuai Shi
 - [Möbius Parametric Modeller 2 on GitHub](https://github.com/phtj/mobius-modeller){:target="blank"}
