@@ -82,6 +82,10 @@ representations to be defined that decompose models into different parts. In add
 be members of multiple collections, thereby allowing multiple representational schemas to be
 applied at the same time. 
 
+For example, a user creating a model of an urban neighbourhood may create collections for each
+building and a collection for the roof polygons of all buildings (perhaps for solar PV potential
+analysis). Each roof polygons would then be in two collections, the building and the 'roofs'.
+
 ## User-defined Semantics
 
 Users can can define custom semantics by adding attributes to any of the entities in the model. This
@@ -90,14 +94,20 @@ representations such as GeoJSON, attributes can only be added to objects. The ab
 attributes to the model, to collections, and to topological entities (wires, edges, and vertices) is
 a powerful feature.
 
+For example, a user creating a model of a number of buildings can create a collection for each
+building and then add attributes that describe properties of the building, for instance the total
+floor area. 
+
 ## User-defined Connectivity
 
 Users can create custom connectivity relationships between objects in the model. By sharing
 positions, vertices in objects can become welded. In other spatial data representations, creating
 such connections is either not possible, or specific types of relationships are hard-coded into the
 representation. With the SIM approach, users can define their own connectivity relationships based
-on their use cases. For example, for certain type sof network analysis, a user may want to create
-connectivity relationships between polylines representing street networks. 
+on their use cases. 
+
+For example, for certain types of network analysis, a user may want to create connectivity
+relationships between polylines representing street networks. 
 
 # SIM Programming Model
 
