@@ -17,6 +17,8 @@ allowing visitors on the web to explore the models.
 
 ## Versions
 
+- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+
 Current stable version:
 
 * [Möbius Modeller Version 0.8.x](http://mobius-08.design-automation.net){:target="Mobius"}
@@ -105,10 +107,9 @@ urban model."  %}
 
 # More Links
 
-## Möbius Modeller (Aug 2017 - ongoing)
+## Möbius Modeller (Version 0.3) (Aug 2017 - Aug 2018)
 - Research Project: [Smart Design](https://design-automation.net/projects/smart_design.html){:target="DAL"}
 - Research Project: [Computational Thinking](https://design-automation.net/projects/comp_think.html){:target="DAL"}
-- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
 - Lead Developer (2017-2018): Akshata Mohanty
 - Research Assistant: Sun Hui Yao
 - Student Assistants: Lim Yan Yee Joie, Derek Pung Shuai Shi
@@ -116,7 +117,7 @@ urban model."  %}
 - [Möbius YouTube channel](https://www.youtube.com/channel/UCNJUnZ7erTrNWnZVjvgE59g){:target="blank"}
 - [Try Möbius Parametric Modeller](https://design-automation.github.io/mobius-modeller/){:target="Mobius"}
 
-## Möbius Geospatial Modeller (Mar 2018 - Dec 2018)
+## Möbius Geospatial Modeller (Version 0.2) (Mar 2018 - Dec 2018)
 - Research Project: [Parametric Urban Modelling for JTC’s Jurong Vision, Phase 2](https://design-automation.net/projects/jurong_vision_phase2.html){:target="DAL"}
 - Research Project: [Smart Design](https://design-automation.net/projects/smart_design.html){:target="DAL"}
 - Research Project: [Computational Thinking](https://design-automation.net/projects/comp_think.html){:target="DAL"}
@@ -127,7 +128,7 @@ urban model."  %}
 - [Möbius Geospatial Modeller on GitHub](https://github.com/design-automation/mobius-cesium){:target="blank"}
 - [Try Möbius Geospatial Modeller](https://design-automation.github.io/mobius-cesium/editor){:target="blank"}
 
-## Möbius Modeller (version 1) (Apr 2015 to Aug 2016)
+## Möbius Modeller Prototype (Version 0.1) (Apr 2015 to Aug 2016)
 - Research Project: [Nimble BIM](https://design-automation.net/projects/nimble_bim.html){:target="DAL"}
 - Lead Developer: Ruize Li
 - Research Assistants: Akshata Mohanty
