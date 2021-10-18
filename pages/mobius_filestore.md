@@ -15,7 +15,8 @@ file can download that file.
 
 All files in the filestore are saved for 1 year, after which they are automatically deleted. If a
 file is uploaded multiple times, then the 1 year expiry date will be calculated based on the last
-time the tile was uploaded.
+time the tile was uploaded. Files mistakenly uploaded to the filestore can only be deleted through
+special request.
 
 The Möbius Filestore is deployed on the Amazon Web Services (AWS) cloud platform.
 
