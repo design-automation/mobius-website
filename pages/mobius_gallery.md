@@ -19,7 +19,8 @@ Examples of Möbius Gallery:
 
 Source code is available on Github.
 
-- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- Lead Developer (2021 - ongoing): Tung Do Phuong Bui
+- Developer (2019 - 2021): Derek Pung
 - [Möbius Gallery on Github](https://github.com/design-automation/mobius-gallery){:target="blank"}
 
 
