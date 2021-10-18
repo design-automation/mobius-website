@@ -17,6 +17,8 @@ All files in the filestore are saved for 1 year, after which they are automatica
 file is uploaded multiple times, then the 1 year expiry date will be calculated based on the last
 time the tile was uploaded.
 
+The Möbius Filestore is deployed on the Amazon Web Services (AWS) cloud platform.
+
 # Source Code
 
 Source code is private.

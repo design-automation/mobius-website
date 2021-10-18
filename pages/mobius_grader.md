@@ -46,7 +46,7 @@ Your final grade would be the average of the two results:
 
 * grade = (5/6 + 2/6) / 2 = 58%
 
-## Source Code
+# Source Code
 
 Source code is available on Github.
 
