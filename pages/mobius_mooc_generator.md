@@ -1,7 +1,7 @@
 ---
 title: Möbius MOOC Generator 
 ---
-# Overview
+# Möbius MOOC Generator 
 
 The Möbius MOOC Generator is a Python library for streamlining the process of creating Massive Open
 Online Courses (MOOCs) on the Edx platform. 

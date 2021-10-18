@@ -1,7 +1,7 @@
 ---
-title: Möbius Spatial Information Model (SIM)
+title: Möbius SIM
 ---
-# Overview
+# Möbius Spatial Information Model (SIM)
 
 Möbius Spatial Information Model (SIM) in a Javascript/Typescript library for generating and
 manipulating 3D spatial information. 
