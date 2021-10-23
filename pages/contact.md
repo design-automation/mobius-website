@@ -12,7 +12,7 @@ title: Contact
 - [Department of Architecture, NUS](http://www.arch.nus.edu.sg/){:target="blank"}
 
 The Design Automation Lab  
-Room 03-12 SDE 3  
+Room 05-08 SDE 1  
 Department of Architecture  
 National University of Singapore  
 4 Architecture Drive  
