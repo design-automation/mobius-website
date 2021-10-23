@@ -9,6 +9,11 @@ using [Möbius Modeller](mobius_modeller.html).
 The Möbius Grader is used for grading assignments for the 
 [Edx Spatial Computational Thinking Professional Certificate Programme](mobius_moocs.html). 
 
+{% include fig.html 
+file="mobius_grader.png" 
+caption="Möbius Evolve Grader integrated into teh Edx Generative Modelling MOOC." 
+%}
+
 ## Grading Process
 
 Möbius Grader automates the grading process of parametric modelling assignments in cloud, on the
