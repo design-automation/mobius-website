@@ -10,14 +10,12 @@ create modelling procedures using visual programming techniques, combining flowc
 drag-and-drop fill-in-the-blanks coding. The models can be published as interactive web pages,
 allowing visitors on the web to explore the models.
 
-## Student Galleries
-
-* [NUS Spatial Computational Thinking 2021](https://design-automation-edu.github.io/AR2524-AY2021-Gallery/){:target="blank"}
-* [NUS Spatial Computational Thinking 2020](https://design-automation-edu.github.io/AR2524-AY2020-Gallery/){:target="blank"}
+{% include fig.html 
+file="mobius_08_vr.png" 
+caption="Möbius Modeller, with the code editor and VR viewer enabled." 
+%}
 
 ## Versions
-
-- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
 
 Current stable version:
 
@@ -32,8 +30,8 @@ Previous versions:
 * [Möbius Modeller Version 0.7.5](https://design-automation.github.io/mobius-parametric-modeller-dev-0-7){:target="Mobius"}
 * [Möbius Modeller Version 0.6.3](https://design-automation.github.io/mobius-parametric-modeller-dev-0-6){:target="Mobius"}
 * [Möbius Modeller Version 0.5.77](https://design-automation.github.io/mobius-parametric-modeller-0-5-77){:target="Mobius"}
-* [Möbius Modeller Version 0.5.48](https://design-automation.github.io/mobius-parametric-modeller-0-5-48){:target="Mobius"}
 * [Möbius Modeller Version 0.5.6](https://design-automation.github.io/mobius-parametric-modeller-0-5-6){:target="Mobius"}
+* [Möbius Modeller Version 0.5.48](https://design-automation.github.io/mobius-parametric-modeller-0-5-48){:target="Mobius"}
 * [Möbius Modeller Version 0.4.34](https://design-automation.github.io/mobius-parametric-modeller-0-4-34){:target="Mobius"}
 * [Möbius Modeller Version 0.4.30](https://design-automation.github.io/mobius-parametric-modeller-0-4-30){:target="Mobius"}
 * [Möbius Modeller Version 0.4.26](https://design-automation.github.io/mobius-parametric-modeller-0-4-26){:target="Mobius"}
@@ -42,6 +40,28 @@ Previous versions:
 * [Möbius Modeller Version 0.3](https://design-automation.github.io/mobius-geospatial/editor){:target="Mobius"}
 * [Möbius Modeller Version 0.2](https://design-automation.github.io/mobius-modeller){:target="Mobius"}
 - [Möbius Modeller Version 0.1](https://design-automation.github.io/mobius/){:target="Mobius"}
+
+# Source Code
+
+Source code is available on Github.
+
+- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- Lead Developer (2017 - 2018): Akshata Mohanty
+- Lead Developer (2015 - 2016): Ruize Li
+
+* [Möbius Modeller Version 0.7.5](https://github.com/design-automation/mobius-parametric-modeller-dev-0-7){:target="Mobius"}
+* [Möbius Modeller Version 0.6.3](https://github.com/design-automation/mobius-parametric-modeller-dev-0-6){:target="Mobius"}
+* [Möbius Modeller Version 0.5.77](https://github.com/design-automation/mobius-parametric-modeller-0-5-77){:target="Mobius"}
+* [Möbius Modeller Version 0.5.6](https://github.com/design-automation/mobius-parametric-modeller-0-5-6){:target="Mobius"}
+* [Möbius Modeller Version 0.5.48](https://github.com/design-automation/mobius-parametric-modeller-0-5-48){:target="Mobius"}
+* [Möbius Modeller Version 0.4.34](https://github.com/design-automation/mobius-parametric-modeller-0-4-34){:target="Mobius"}
+* [Möbius Modeller Version 0.4.30](https://github.com/design-automation/mobius-parametric-modeller-0-4-30){:target="Mobius"}
+* [Möbius Modeller Version 0.4.26](https://github.com/design-automation/mobius-parametric-modeller-0-4-26){:target="Mobius"}
+* [Möbius Modeller Version 0.4.18](https://github.com/design-automation/mobius-parametric-modeller-0-4-18){:target="Mobius"}
+* [Möbius Modeller Version 0.4.11](https://github.com/design-automation/mobius-parametric-modeller-0-4-11){:target="Mobius"}
+* [Möbius Modeller Version 0.3](https://github.com/design-automation/mobius-geospatial/editor){:target="Mobius"}
+* [Möbius Modeller Version 0.2](https://github.com/design-automation/mobius-modeller){:target="Mobius"}
+- [Möbius Modeller Version 0.1](https://github.com/design-automation/mobius/){:target="Mobius"}
 
 # History
 
@@ -54,7 +74,7 @@ The Möbius Geospatial Modeller was developed between 2017 and 2018.
 The Möbius Geospatial Modeller allowed geo-computational procedures to be developed for creating
 interactive 3D geospatial datasets.
 
-* [Möbius Geospatial Modeller, Version 0.3.x](https://design-automation.github.io/mobius-geospatial/editor){:target="Mobius"}
+* [Möbius Geospatial Modeller, Version 0.3.x](https://github.com/design-automation/mobius-geospatial/editor){:target="Mobius"}
 * [View the Möbius Geospatial Gallery](https://design-automation.github.io/mobius-geospatial/gallery){:target="blank"}
 
 Various data types can be manipulated, include both geospatial and non-geospatial data. Procedures

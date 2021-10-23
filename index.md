@@ -17,5 +17,5 @@ The Director of the Design Automation Lab and the Principal Investigator for the
 is [Assoc. Professor Patrick Janssen](https://patrick.janssen.name){:target="PatrickJanssen"}.
 
 Möbius Modeller can be customised to different domains by developing specialized function libraries
-and specialized viewers. [Contact us](contact.html) if you are interested in applying the Möbius
+and specialized viewers. [Contact us](/pages/contact.html) if you are interested in applying the Möbius
 Modeller in your domain.
