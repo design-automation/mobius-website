@@ -11,7 +11,7 @@ The Möbius Grader is used for grading assignments for the
 
 {% include fig.html 
 file="mobius_grader.png" 
-caption="Möbius Evolve Grader integrated into teh Edx Generative Modelling MOOC." 
+caption="Möbius Grader integrated into the Edx Generative Modelling MOOC." 
 %}
 
 ## Grading Process
@@ -19,10 +19,9 @@ caption="Möbius Evolve Grader integrated into teh Edx Generative Modelling MOOC
 Möbius Grader automates the grading process of parametric modelling assignments in cloud, on the
 Amazon Web Services (AWS) platform.
 
-Let's imagine that you are required to create a script that generates a box consisting
-of six polygon faces, with variable height, width and length. For this description, we will still
-think of this as a single function. So the grader will have both your submitted script and the
-answer script.
+Let's imagine that a learner is required to create a script that generates a box consisting of six
+polygon faces, with variable height, width and length. (A very simple example, to explain the
+concept.) The grader will be given both the learner's submitted script and the answer script.
 
 * `submitted_box_func(length, width, height)`
 * `answer_box_func(length, width, height)`
@@ -42,12 +41,12 @@ polygons, the grader will look for a matching polygon in the result model. A mat
 polygon must have the same shape and topology, and must have the same position and orientation. (The
 matching process will be discussed in more detail later.)
 
-So let's say that you made an error in your script, and that the results are as follows:
+So let's say that the learner made an error in their script, and that the results are as follows:
 
 * For *box_result1*, the grader found 5 out of 6 matching polygons.
 * For *box_result2*, the grader found 2 out of 6 matching polygons.
 
-Your final grade would be the average of the two results:
+The final grade would be the average of the two results:
 
 * grade = (5/6 + 2/6) / 2 = 58%
 

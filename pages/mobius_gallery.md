@@ -9,6 +9,16 @@ log-in portal is provided.
 
 Galleries are hosted in the cloud, on the Amazon Web Services (AWS) cloud computing platform.
 
+{% include fig.html 
+file="mobius_a=gallery_2020_2021.png" 
+caption="Möbius Gallery, of student scripts from the NUS Spatial Computational Thinking course (AR2524, AY2020/2021)." 
+%}
+
+{% include fig.html 
+file="mobius_a=gallery_2019_2020.png" 
+caption="Möbius Gallery, of student scripts from the NUS Spatial Computational Thinking course (AR2524, AT2019/2020)." 
+%}
+
 Examples of Möbius Gallery:
 
 - Möbius Galleries for AR2524 Spatial Computational Thinking
