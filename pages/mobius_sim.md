@@ -6,6 +6,21 @@ title: Möbius SIM
 Möbius Spatial Information Model (SIM) in a Javascript/Typescript library for generating and
 manipulating 3D spatial information. 
 
+{% include fig.html 
+file="mobius_sim_ent_types.png" 
+caption="Möbius SIM, entity types." 
+%}
+
+{% include fig.html 
+file="mobius_sim_table.png" 
+caption="Möbius SIM, showing the entities that make up points, polyline, and polygons." 
+%}
+
+{% include fig.html 
+file="mobius_sim_tree.png" 
+caption="Möbius SIM, showing the relationship between entities for a polygon with a whole." 
+%}
+
 # SIM Conceptual Model
 
 The SIM Conceptual Model defines how spatial information is representation. 
