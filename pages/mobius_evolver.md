@@ -6,6 +6,11 @@ title: Möbius Evolver
 Möbius Evolver is an open-source web-app for designers to optimize 3D parametric models. The app
 runs on the Amazon AWS Clouding Computing platform.
 
+{% include fig.html 
+file="mobius_evolver.png" 
+caption="Möbius Evolver, showing charts, tables, and integrate 3D model viewer." 
+%}
+
 Example runs using Mobius Evolver:
 
 - [Example 1](https://master.d3i0dy0fnq65q5.amplifyapp.com/view-searches/search-results#id=e5fbecee-ca9c-4e13-80dc-8da949424969){:target="Mobius"}
