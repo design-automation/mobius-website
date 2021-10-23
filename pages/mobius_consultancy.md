@@ -1,72 +1,57 @@
 ---
-title: Möbius Grader
+title: Möbius Consultancy
 ---
-# Möbius Grader
+# Möbius Consultancy
 
-Möbius Grader is an open-source web-app for automated grading of parametric modelling assignments 
-using [Möbius Modeller](mobius_modeller.html). 
+The tools in the Möbius Ecosystem can be adapted to many different use case. For example, Möbius
+Modeller can be customised to different domains by developing specialized function libraries and
+specialized viewers. 
 
-The Möbius Grader is used for grading assignments for the 
-[Edx Spatial Computational Thinking Professional Certificate Programme](mobius_moocs.html). 
+[Contact us](contact.html) if you are interested in applying any of the tools in The Möbius
+Ecosystem.
 
-## Grading Process
+## Rapid Urbanism Explorer
 
-Möbius Grader automates the grading process of parametric modelling assignments in cloud, on the
-Amazon Web Services (AWS) platform.
+The Rapid Urbanism Explorer is an Augmented Intelligence (AI) Platform to support decision makers in
+developing new urban districts in advanced ways. Rapid iterative virtual prototyping empowers
+stakeholders to produce complex urbanization scenarios integrating spatial, temporal, socioeconomic
+and environmental parameters in real time.
 
-Let's imagine that you are required to create a script that generates a box consisting
-of six polygon faces, with variable height, width and length. For this description, we will still
-think of this as a single function. So the grader will have both your submitted script and the
-answer script.
+{% include fig.html 
+file="rue03_birdseye.png" 
+caption="RUE Graphical User Interface: planning inputs left, spatial model center, financial
+performance and impact metrics right." 
+ %}
 
-* `submitted_box_func(length, width, height)`
-* `answer_box_func(length, width, height)`
+{% include fig.html 
+file="rue03_flyover.png" 
+caption="3D Spatial Model generated through the integration of Möbius Modeller." 
+ %}
 
-The grader will then run a series of tests with predefine values for length, width, and height. Both
-submitted and answer scripts will be executed, generating a series of 3D models.
+The Rapid Urbanism Explorer is a collaborative project of: 
+- [Rapid Urbanism](https://rapidurbanism.com/) and 
+- [The Initiative for Advanced Urbanization and Artificial Intelligence (IAUAI) ](https://rapidurbanism.com/iauai/). 
 
-* `box_result1 = submitted_box_func(1, 2, 3)`
-* `box_result2 = submitted_box_func(2, 1, -1)`
-* `box_answer1 = answer_box_func(1, 2, 3)`
-* `box_answer2 = answer_box_func(2, 1, -1)`
+The for-profit Rapid Urbanism alias Matthias Nohn is the knowledge partner, contributing the [Rapid
+Urbanism Framework](https://rapidurbanism.com/rapid-urbanism/) under a Creative Commons Attribution
+Non-Commercial Share Alike 4.0 International License, while IAUAI gGmbH ensures that a base version
+of the software is made available with a low-threshold benefitting a wide audience for the common
+good.
 
-The grader will then compare the result 3D models to the answer 3D models. When comparing models,
-the grader will look at each entity in the answer model and see if it can find a matching entity in
-the result model. So in this case, the answer models will have 6 polygons. So for each of these
-polygons, the grader will look for a matching polygon in the result model. A match means that the
-polygon must have the same shape and topology, and must have the same position and orientation. (The
-matching process will be discussed in more detail later.)
+The  web application was developed by The first prototypes of Rapid Urbanism Explorer web
+application was developed in collaboration with [Design Automation
+Lab](https://design-automation.net/) at the National University of Singapore (model coding), and
+Code the Future (platform development), with support of [The Hilti
+Foundation](http://www.hiltifoundation.org/en/). In partnership with [Habitat for
+Humanity](https://www.habitat.org/about), the beta is scheduled for pilot-testing in the
+Philippines.
 
-So let's say that you made an error in your script, and that the results are as follows:
-
-* For *box_result1*, the grader found 5 out of 6 matching polygons.
-* For *box_result2*, the grader found 2 out of 6 matching polygons.
-
-Your final grade would be the average of the two results:
-
-* grade = (5/6 + 2/6) / 2 = 58%
-
-# Source Code
+## Source Code
 
 Source code is available on Github.
 
-- Lead Developer (2018 - ongoing): Tung Do Phuong Bui
-- [Möbius Grader on Github](https://github.com/design-automation/mobius-external-grader){:target="blank"}
-- [Möbius Grader Edx Server on Github](https://github.com/design-automation/edx-server){:target="blank"}
-
-## Paper
-
-{% include ref-conf.html
-    authors="Pung, D|Bui, TDP|Janssen, P"
-    year="2020"
-    date="August 5-6"
-    place="Bangkok, Thailand"
-    pages="323-332"
-    title="Automated Grading of Parametric Modelling Assignments - A Spatial Computational Thinking Course"
-    proceedings="Proceedings of CAADRIA 2020"
-    cumincad_id="caadria2020_048"
-    researchgate_id="355338440"
-%}
-
+- Lead Developer (2020 - 2021): Patrick Janssen
+- [Rapid Urbanism Explorer, Version 0.3](https://github.com/rapidurbanism/RUE03/){:target="blank"}
+- [Rapid Urbanism Explorer, Version 0.2](https://github.com/rapidurbanism/RUE02/){:target="blank"}
 
 

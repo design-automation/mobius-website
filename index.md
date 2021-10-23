@@ -16,6 +16,6 @@ The Möbius Ecosystem has been developed by the
 The Director of the Design Automation Lab and the Principal Investigator for the Mobius development
 is [Assoc. Professor Patrick Janssen](https://patrick.janssen.name){:target="PatrickJanssen"}.
 
-The Möbius Modeller can be customised to different domains by developing specialized function
-libraries and specialized viewers. Contact us if you are interested in applying the Möbius Modeller
-in your domain.
+Möbius Modeller can be customised to different domains by developing specialized function libraries
+and specialized viewers. [Contact us](contact.html) if you are interested in applying the Möbius
+Modeller in your domain.
