@@ -28,17 +28,12 @@ file="rue03_flyover.png"
 caption="3D Spatial Model generated through the integration of Möbius Modeller." 
  %}
 
-The Rapid Urbanism Explorer is a collaborative project of: 
-- [Rapid Urbanism](https://rapidurbanism.com/) 
-- [The Initiative for Advanced Urbanization and Artificial Intelligence (IAUAI)](https://rapidurbanism.com/iauai/)
+The Rapid Urbanism Explorer is a collaborative project by 
+[Rapid Urbanism](https://rapidurbanism.com/) and 
+[The Initiative for Advanced Urbanization and Artificial Intelligence (IAUAI)](https://rapidurbanism.com/iauai/)
 
-The for-profit Rapid Urbanism alias Matthias Nohn is the knowledge partner, contributing the [Rapid
-Urbanism Framework](https://rapidurbanism.com/rapid-urbanism/) under a Creative Commons Attribution
-Non-Commercial Share Alike 4.0 International License, while IAUAI gGmbH ensures that a base version
-of the software is made available with a low-threshold benefiting a wide audience for the common
-good.
 
-The first prototypes of Rapid Urbanism Explorer web application was developed in collaboration with
+The software prototypes of Rapid Urbanism Explorer web application were developed in collaboration with
 [Design Automation Lab](https://design-automation.net/) at the National University of Singapore
 (model coding), and Code the Future (platform development), with support of 
 [The Hilti Foundation](http://www.hiltifoundation.org/en/). In partnership with 

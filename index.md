@@ -7,6 +7,11 @@ The Möbius Ecosystem encompasses various open-source tools and libraries for su
 computational thinking. At the core of this ecosystem is Möbius Modeller, a parametric modelling
 application for the web. 
 
+{% include fig.html 
+file="mobius_08_geo.png" 
+caption="Möbius Modeller, showing the flowchart and a 3D model in the geospatial viewer." 
+%}
+
 * Go to the [latest version of Möbius Modeller](https://mobius-08.design-automation.net){:target="Mobius"}.
 
 The Möbius Ecosystem has been developed by the 
