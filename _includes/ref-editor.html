@@ -38,16 +38,17 @@
                 ({{ include.issue }})
             {% endif %}
         {% endif %}.
-        {% if include.cumincad_id %}
-            <a href="http://papers.cumincad.org/cgi-bin/works/paper/{{ include.cumincad_id }}"  target="view">Cumincad</a>
-        {% endif %}
-        {% if include.cumincad_id and include.researchgate_id %},{% endif %}
         {% if include.researchgate_id %}
-            <a href="https://www.researchgate.net/publication/{{ include.researchgate_id }}"  target="view">ResearchGate</a>
+            <a href="https://www.researchgate.net/publication/{{ include.researchgate_id }}" target="view">ResearchGate</a>
         {% endif %}
-        {% if include.researchgate_id and include.link %},{% endif %}
+        {% if include.cumincad_id %}
+            , <a href="http://papers.cumincad.org/cgi-bin/works/paper/{{ include.cumincad_id }}" target="view">Cumincad</a>
+        {% endif %}
+        {% if include.has_pdf %}
+            , <a href="/assets/pdf/{{ include.researchgate_id }}.pdf" target="view">PDF</a>
+        {% endif %}
         {% if include.link %}
-            <a href="{{include.link}}" target="view">Link</a>
+            , <a href="{{ include.link }}" target="view">Link</a>
         {% endif %}
     </p>
 
