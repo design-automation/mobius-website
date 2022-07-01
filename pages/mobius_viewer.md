@@ -9,7 +9,7 @@ them onto the canvas.
 
 {% include fig.html 
 file="mobius_viewer_07.png" 
-caption="Möbius Viewer, show spatial analysis results." 
+caption="Möbius Viewer, showing spatial analysis results." 
 %}
 
 Live viewer:
@@ -20,7 +20,7 @@ Live viewer:
 ## Embedding the Viewer in a Web Page
 
 The viewer can be embedded in a web page within an HTML frame. The Javascript code in the web page
-can then interact with the embedded viewer via a Post-message API. This allows teh web page to set
+can then interact with the embedded viewer via a Post-message API. This allows the web page to set
 viewer settings and to load models.
 
 # Source Code
