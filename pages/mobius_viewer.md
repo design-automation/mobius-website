@@ -23,8 +23,8 @@ The viewer can be embedded in a web page within an HTML frame. The Javascript co
 can then interact with the embedded viewer via a Post-message API. This allows the web page to set
 viewer settings and to load models.
 
-For more details on embedding Mobius Viewer: [Github page on Embedding Möbius viewer](https://github.com/design-automation/mobius-viewer-dev-0-7/blob/main/embed.md){:target="blank"}
-For other ways to embed Mobius: [Möbius for your site](https://mobius.design-automation.net/pages/mobius_for_your_site.html){:target="blank"}
+- For more details on embedding Mobius Viewer: [Github page on Embedding Möbius viewer](https://github.com/design-automation/mobius-viewer-dev-0-7/blob/main/embed.md){:target="blank"}
+- For other ways to embed Mobius: [Möbius for your site](https://mobius.design-automation.net/pages/mobius_for_your_site.html){:target="blank"}
 
 # Source Code
 
