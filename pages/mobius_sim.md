@@ -23,27 +23,27 @@ caption="Möbius SIM, showing the relationship between entities for a polygon wi
 
 # SIM Conceptual Model
 
-The SIM Conceptual Model defines how spatial information is representation. 
+The SIM Conceptual Model defines how spatial information is representated. 
 
 The conceptual model strives to be a highly generic type of representation that can be used to
 represent a wide variety of types of spatial information. It has no concepts that are specific to
 any type of products, such as buildings, cities, and so forth. Such concepts can be added to the
-representation by the user, through user-defined collections, semantics, and connectivity
+representation by the user, through user-defined collections, semantics, and connectivity.
 
 ## Entities
 
 The conceptual model defines a set of entities and attributes. 
 
 Entities represent the geometry and topology of the spatial information. Attributes represent the
-semantics of the spatial information. Attributes are key-value pairs that can eb attached to any
+semantics of the spatial information. Attributes are key-value pairs that can be attached to any
 type of entity.
 
-Various different types of entities are define. 
-- __Model__: A the top level, there is the _model_ entity that encapsulates the whole model. 
+Various different types of entities are defined. 
+- __Model__: At the top level, there is the _model_ entity that encapsulates the whole model. 
 - __Collections__: A model can contain zero or more _collections_. A collection is an aggregation
   that can contain either objects or other collections.
 - __Objects__: A model can contain zero geometric entities called _objects_. Three types of objects
-  are define: _polygons_, _polylines_, and _points_. 
+  are defined: _polygons_, _polylines_, and _points_. 
 - __Topology__: Objects have an internal topological structure made up of _topological_ entities.
   There are three types of topological entities: _wires_, _edges_, and _vertices_.
 - __Positions__: A model can contain _positions_. Positions represent specific locations in the
@@ -92,18 +92,18 @@ dictionaries.
 ## User-defined Collections
 
 Users can organise their spatial information in complex ways using collections. Collections can
-contain heterogeneous set of objects, and can be nested to create hierarchies. This allows
+contain heterogeneous sets of objects, and can be nested to create hierarchies. This allows
 representations to be defined that decompose models into different parts. In addition, objects can
 be members of multiple collections, thereby allowing multiple representational schemas to be
 applied at the same time. 
 
 For example, a user creating a model of an urban neighbourhood may create collections for each
 building and a collection for the roof polygons of all buildings (perhaps for solar PV potential
-analysis). Each roof polygons would then be in two collections, the building and the 'roofs'.
+analysis). Each roof polygon would then be in two collections, the building and the 'roofs'.
 
 ## User-defined Semantics
 
-Users can can define custom semantics by adding attributes to any of the entities in the model. This
+Users can define custom semantics by adding attributes to any of the entities in the model. This
 allows users to customise the data representation to their particular use case. In existing spatial
 representations such as GeoJSON, attributes can only be added to objects. The ability to add
 attributes to the model, to collections, and to topological entities (wires, edges, and vertices) is
@@ -126,28 +126,7 @@ relationships between polylines representing street networks.
 
 # SIM Programming Model
 
-The SIM library implements the SIM COnceptual Model, and provides a Typescript API for creating and
-manipulating SIM models.
-
-The SIM API is a functional API that has functions for performing various type of modelling
-operations. Entities in the model are referenced by their entity IDs. The first argument to all
-functions is the SIM model that is being operated on.
-
-For example, to create a polygon and extrude it:
-
-```
-import GIModel from ...
-import pattern from ...
-import make from ...
-import attrib from ...
-import io from ...
-const model = new GIModel();
-const posis = pattern.Rectangle(model, [0,0,0], [10, 20]);
-const pgon = make.Polygon(model, posis);
-const ext = make.Extrude(model, pgon, [0,0,10], 3, make.EExtrude.QUADS);
-attrib.set(model, pgon, "type", "base", attrib.ESet.ONE_VALUE);
-const data = io.Export(model, ext, io.EExport.GLTF);
-```
+See [Möbius Programming](https://mobius.design-automation.net/pages/mobius_programming.html) for usage.
 
 # Source Code
 

@@ -17,5 +17,5 @@ There are two main methods to embed Mobius into an external website. The links w
 When embedding Mobius Viewer, a default model will likely be needed. There are two ways to create this model.
 
 1. Create a script in Mobius Modeller and save the javascript file. This file can be saved onto dropbox, then executed in the viewer. (Mobius' website's publish function can also be used to generate embed code.)
-2. Write code using [mobius-sim-funcs](https://github.com/design-automation/mobius-sim-funcs/blob/main/README.md) and [mobius-inline functions](https://github.com/design-automation/mobius-inline-funcs/blob/main/README.md) libraries. See the respective links for instructions on how to install and use the libraries.
+2. Write code using [mobius-sim-funcs](https://github.com/design-automation/mobius-sim-funcs/blob/main/README.md) and [mobius-inline functions](https://github.com/design-automation/mobius-inline-funcs/blob/main/README.md) libraries. See the respective links for instructions on how to install and use the libraries, or see [Mobius Programming](https://mobius.design-automation.net/pages/mobius_programming.html) for more on the programming model. 
 

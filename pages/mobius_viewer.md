@@ -14,6 +14,7 @@ caption="Möbius Viewer, showing spatial analysis results."
 
 Live viewer:
 
+- [Möbius Viewer Version 0.9](https://design-automation.github.io/mobius-viewer-dev-0-9){:target="Mobius"}
 - [Möbius Viewer Version 0.7](https://design-automation.github.io/mobius-viewer-dev-0-7/){:target="Mobius"}
 - [Möbius Viewer Version 0.6](https://design-automation.github.io/mobius-viewer/){:target="Mobius"}
 
@@ -31,5 +32,6 @@ viewer settings and to load models.
 Source code is available on Github.
 
 - Lead Developer (2018 - ongoing): Tung Do Phuong Bui
+- [Möbius Viewer Version 0.9 on Github](https://github.com/design-automation/mobius-viewer-dev-0-9){:target="blank"}
 - [Möbius Viewer Version 0.7 on Github](https://github.com/design-automation/mobius-viewer-dev-0-7){:target="blank"}
 - [Möbius Viewer Version 0.6 on Github](https://github.com/design-automation/mobius-viewer){:target="blank"}
