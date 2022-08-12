@@ -124,24 +124,6 @@ on their use cases.
 For example, for certain types of network analysis, a user may want to create connectivity
 relationships between polylines representing street networks. 
 
-# SIM Programming Model
+# Möbius Programming
 
-See [Möbius Programming](https://mobius.design-automation.net/pages/mobius_programming.html) for usage.
-
-# Source Code
-
-Source code is available on Github.
-
-- Lead Developer (2017 - ongoing): [Patrick Janssen](http://patrick.janssen.name)
-- [Möbius SIM on Github](https://github.com/design-automation/mobius-sim){:target="blank"}
-- [Möbius SIM Functions on Github](https://github.com/design-automation/mobius-sim-funcs){:target="blank"}
-
-## Installation
-
-The SIM library is available through the NPM package manager.
-
-- [Möbius SIM on NPM](https://www.npmjs.com/package/@design-automation/mobius-sim){:target="blank"}
-- [Möbius SIM Functions on NPM](https://www.npmjs.com/package/@design-automation/mobius-sim-funcs){:target="blank"}
-
-To install:
- - `npm i @design-automation/mobius-sim`
+See [Möbius Programming](https://mobius.design-automation.net/pages/mobius_programming.html) for more information.
